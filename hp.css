@@ -1,0 +1,304 @@
+/* Body */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #e7e7e7;
+}
+
+/* Nav */
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: #e7e7e7;
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+    position: fixed;
+    top: 0;
+}
+
+#nav_link, #nav_link_active {
+    text-decoration: none;
+    color: #5e6d74;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#nav_link:hover {
+    color: #111a43;
+    font-weight: bold;
+}
+
+#nav_link_active {
+    color: #111a43;
+    font-weight: bold;
+}
+
+/* Header */
+
+#header {
+    font-family: 'NowRegular';
+    font-style: bold;
+    color: #f0f0f0;
+    font-size: 40px;
+    text-transform: uppercase;
+
+    background-image: url("../img/Cover.jpg");
+
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+
+    width: 100%;
+}
+
+/* Description */
+
+#desc {
+    background-color: #e7e7e7;
+    padding: 10px 50px 10px 50px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+
+    text-align: justify;
+    color: #5e6d74;
+    font-size: 18px;
+}
+
+/* Main content */
+
+#maincontent {
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    height: 450px
+}
+
+.Row {
+    display: flex;
+    justify-content: center;
+}
+
+#itembio {
+    width: 50%;
+    height: 85px;
+    margin-bottom: 10px;
+
+    border: 2px solid #5e6d74;
+
+    display: inline-block;
+    font-weight: bold;
+}
+
+#itembio:hover {
+    background-image: url(../gif/Bio.gif);
+}
+
+#biolink {
+    color: #5e6d74;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#itemphys {
+    width: 50%;
+    height: 85px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+    border: 2px solid #5e6d74;
+
+    display: inline-block;
+    font-weight: bold;
+}
+
+#itemphys:hover {
+    background-image: url(../gif/physics.gif);
+}
+
+#physlink {
+    color: #5e6d74;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#physlink:hover {
+    color: #e7e7e7;
+    font-size: 16px;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+#itemchem {
+    width: 50%;
+    height: 85px;
+    margin-bottom: 10px;
+
+    border: 2px solid #5e6d74;
+
+    display: inline-block;
+    font-weight: bold;
+}
+
+#itemchem:hover {
+    background-image: url(../gif/chemistry.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#chemlink {
+    color: #5e6d74;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#itempsych {
+    width: 50%;
+    height: 85px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+    border: 2px solid #5e6d74;
+
+    display: inline-block;
+    font-weight: bold;
+}
+
+#itempsych:hover {
+    background-image: url(../gif/pyschology.gif);
+}
+
+#psychlink {
+    color: #5e6d74;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+#psychlink:hover {
+    color: #e7e7e7;
+    font-size: 16px;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+#itemUR {
+    width: 50%;
+    height: 85px;
+    margin-bottom: 25px;
+
+    border: 2px solid #5e6d74;
+
+    display: inline-block;
+    font-weight: bold;
+}
+
+#itemUR:hover {
+    background-image: url(../gif/Useful.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#URlink {
+    color: #5e6d74;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#itemOT {
+    width: 50%;
+    height: 85px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+
+    border: 2px solid #5e6d74;
+
+    display: inline-block;
+    font-weight: bold;
+}
+
+#itemOT:hover {
+    background-image: url(../gif/tutor.gif);
+}
+
+#OTlink {
+    color: #5e6d74;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Footer */
+
+footer {
+    background-color: #c2e0e7;
+
+    text-align: justify;
+    padding: 10px 50px 10px 50px;
+    line-height: 20px;
+
+    color: #5e6d74;
+    font-size: 14px;
+}
+
+#patreon_link {
+    color: #111a43;
+}
