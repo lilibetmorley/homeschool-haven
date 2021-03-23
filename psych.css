@@ -1,0 +1,136 @@
+/* Body */
+
+body {
+    font-family: 'Raleway', sans-serif; /* You will need to add the link for this font in the head of the html:  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">*/
+    background-color: #e7e7e7;
+}
+
+/* Nav */
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: #e7e7e7;
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+    position: fixed;
+    top: 0;
+}
+
+#nav_link, #nav_link_active { /* Give the nav links the id nav_link. Edit the id nav_link_active in the html depending on which page the user is on*/
+    text-decoration: none;
+    color: #5e6d74;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#nav_link:hover {
+    color: #111a43;
+    font-weight: bold;
+}
+
+#nav_link_active {
+    color: #111a43;
+    font-weight: bold;
+}
+
+/* Header */
+
+#header { /*Label the header div with the id header*/
+    font-family: 'NowRegular'; /* You will need to add the link for this font in the head of the html: <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/now" type="text/css" />*/
+    font-style: bold;
+    color: #5e6d74;
+    font-size: 40px;
+    text-transform: uppercase;
+
+    background-image: url("../img/Psychology.jpg"); /* I will send you the pics, pop them into a file*/
+
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+
+    width: 100%;
+}
+
+/* Description */
+
+#desc { /*Lavel the description div with the id desc*/
+    background-color: #e7e7e7;
+    padding: 10px 50px 10px 50px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+
+    text-align: justify;
+    color: #5e6d74;
+    font-size: 18px;
+}
+
+/*Main */
+
+#maincontent { /*wrap all of the content between the description and footer in a div with the label id main content*/
+    padding: 10px 50px 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+a {
+    color: #111a43;
+}
+
+.content { /*separate the html for the content into where to find notes, where to find assessment questions, where to find practice materials and where to find videos, place them inside divs and give them the class content*/
+    color: #5e6d74;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    width: 90%;
+    height: 100%;
+    padding: 25px;
+    margin: 10px;
+    border: 2px solid #5e6d74;
+}
+
+/* Footer */
+
+footer {
+    background-color: #ab7eb7;
+
+    text-align: justify;
+    margin-top: 50px;
+    padding: 10px 50px 10px 50px;
+    line-height: 20px;
+
+    color: #e7e7e7;
+    font-size: 14px;
+}
+
+#patreon_link {
+    color: #111a43;
+}
